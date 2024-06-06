@@ -16,16 +16,23 @@
         .poppins-font{
             font-family: "Poppins", sans-serif;
         }
+        .primary-btn{
+            font-size: 16px;
+            background-color:#DC3845;
+            border-radius: 15px;
+            color:white;
+            padding: 10px;
+        }
     </style>
 </head>
-<body class="poppins-font max-w-[1280px] mx-auto">
-    <header>
-        <nav class="flex justify-between mt-5">
-            <div class="flex items-center gap-1">
+<body class="poppins-font">
+    <header class="md:container sm:mx-auto">
+        <nav class="sm:flex sm:justify-between mt-5 p-4">
+            <div class="flex justify-center items-center gap-1">
                 <img src="images/1.png" alt="">
                 <h3 class="text-base font-medium text-[#282525]">Christmas</h3>
             </div>
-            <ul class="flex items-center gap-7 text-base font-medium text-[#282525]">
+            <ul class="sm:flex text-center items-center gap-7 text-base font-medium text-[#282525]">
                 <li><a class="text-[#DC3845]" href="">Home</a></li>
                 <li><a href="">Celebrate</a></li>
                 <li><a href="">Gifts</a></li>
@@ -47,8 +54,17 @@
             </ul>
         </nav>
     </header>
-    <main>
-
+    <main class="md:container md:mx-auto">
+        <section class="sm:flex items-center justify-between mt-16 gap-8 p-4">
+            <div>
+                <img src="images/home.png" alt="">
+            </div>
+            <div>
+                <h3 class="text-4xl pb-4 font-semibold text-[#282525]">Merry Christmas and <br> Happy New Year!</h3>
+                <p class="text-base pb-4 font-normal text-[#5D5656]">Christmas and a new year is about to begin, all good wishes and successes.</p>
+                <button class="primary-btn">Get Started</button>
+            </div>
+        </section>
     </main>
     <footer>
 
